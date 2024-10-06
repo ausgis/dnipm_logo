@@ -45,9 +45,8 @@ sticker(
 )
 
 image_read('./dnipm_logo.png') |> 
-  image_resize("256x256")|> 
+  image_resize("240x278")|> 
   image_write('./dnipm_logo.png')
 ```
-
 
 ![](./dnipm_logo.png)
