@@ -1,4 +1,4 @@
-setwd('../../Downloads/materials/dnipm_logo/')
+# setwd('../../Downloads/materials/dnipm_logo/')
 
 library(showtext)
 showtext_auto(enable = TRUE)
@@ -31,5 +31,5 @@ sticker(
 )
 
 image_read('./dnipm_logo.png') |> 
-  image_resize("256x256")|> 
+  image_resize("240x278")|> 
   image_write('./dnipm_logo.png')
