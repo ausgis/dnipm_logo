@@ -1,3 +1,5 @@
+setwd('../../Downloads/materials/dnipm_logo/')
+
 library(showtext)
 showtext_auto(enable = TRUE)
 font_add("ShineTypewriter", regular = "./ShineTypewriter-lgwzd.ttf")
